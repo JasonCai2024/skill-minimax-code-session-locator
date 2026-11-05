@@ -1,0 +1,36 @@
+# 敏感信息
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# 本地凭据与临时回退层
+data/
+data/*.sqlite
+data/*.jsonl
+
+# Python 运行时与缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+*.tmp
+.pytest_cache/
+.coverage
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 避免误提交本地 MiniMax 实际数据
+.minimax/
+minimax/
+
+# 日志文件
+*.log
+logs/
